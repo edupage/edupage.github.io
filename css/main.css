@@ -18,3 +18,7 @@ color: rgb(255, 253, 253);
 .fa-icon{
 font-size: 15pt;
 }
+.ribbon-content{
+    text-align:center;
+    color:blue;
+}
