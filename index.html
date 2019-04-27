@@ -37,7 +37,7 @@
 		    <div class="container main-menu">
 		    	<div class="row align-items-center justify-content-between d-flex">
 			      <div id="logo">
-						<a href="index.html"><img src="img/logos.svg" style="height: 50px; width:400px"  alt="" title="" /></a>
+						<a href="index.html"><img src="img/logos.svg" style="height: 60px; width:420px;"  alt="" title="" /></a>
 			      </div>
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
@@ -47,8 +47,7 @@
 			          <li><a href="about.html">About Us</a></li>
 								<li><a href="courses.html">What We Do</a></li>
 								<li><a href="index.html">Our Offers</a></li>
-								
-			          <li><a href="events.html">Events</a></li>
+			          			<li><a href="events.html">Events</a></li>
 								<li><a href="gallery.html">Gallery</a></li>
 			                					          		          
 			          <li><a href="contact.html">Contact</a></li>
@@ -64,6 +63,7 @@
 				<div class="container">
 					<div class="row fullscreen d-flex align-items-center justify-content-between">
 						<div class="banner-content col-lg-9 col-md-12">
+							
 							<h1 class="text-uppercase">
 									Life is what happens when you're 
 									busy making other plans
@@ -71,9 +71,12 @@
 							<p class="pt-10 pb-10">
 								In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space telescope known as the Hubble.
 							</p>
-							
-						</div>										
+						
+						</div>
+
+						
 					</div>
+				
 				</div>					
 			</section>
 			<!-- End banner Area -->
@@ -475,32 +478,7 @@
 			<!-- End upcoming-event Area -->
 						
 			<!-- Start review Area -->
-			<section class="upcoming-event-area ">
-				<div class="container">
-						<div class="row d-flex justify-content-center">
-								<div class="menu-content pb-70 col-lg-8">
-									<div class="title text-center">
-										<h1 class="mb-10">Some Photos</h1>
-									</div>
-								</div>
-							</div>			
-							<div class="w3-content w3-display-container">
-									<img class="mySlides" src="img/img-44.png" style="width:100%">
-									<img class="mySlides" src="img/img-1.jpg" style="width:100%">
-									<img class="mySlides" src="img/img-3.jpg" style="width:100%">
-									
-								  
-									<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-									<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-								  </div>
-								
-
-									 
-											
-</div>
-	
-			</section>
-			
+		
 			
 			<!-- Start cta-one Area -->
 			<section class="cta-one-area relative section-gap">
@@ -593,30 +571,30 @@
 			<!-- Start cta-two Area -->
 			<section class="cta-two-area">
 				<div class="title text-center">
-					<h1 class="mb-10" style="color: white;">Our Partners</h1>
+					<h1 class="mb-10" style="color: white;">Our Partners</h1><br>
 				</div>
 				<div class="container">
-				<div class="row">
+				<div class="row d-flex justify-content-center ">
 						<div class="col-lg-3 col-md-6 single-blog">
 								<div class="thumb img-size">
-									<img class="img-fluid" src="https://s.w.org/about/images/logos/wordpress-logo-simplified-rgb.png" alt="">								
+									<img class="img-fluid" src="img/partner-1.png" alt="">								
 								</div>
 							</div>
 
 							<div class="col-lg-3 col-md-6 single-blog">
 									<div class="thumb img-size">
-										<img class="img-fluid" src="https://s.w.org/about/images/logos/wordpress-logo-simplified-rgb.png" alt="">								
+										<img class="img-fluid" src="img/partner-2.png" alt="">								
 									</div>
 								</div>
 
 								<div class="col-lg-3 col-md-6 single-blog">
 										<div class="thumb img-size">
-											<img class="img-fluid" src="https://s.w.org/about/images/logos/wordpress-logo-simplified-rgb.png" alt="">								
+											<img class="img-fluid" src="img/partner-3.jpg" alt="">								
 										</div>
 									</div>
 									<div class="col-lg-3 col-md-6 single-blog">
 											<div class="thumb img-size">
-												<img class="img-fluid" src="https://s.w.org/about/images/logos/wordpress-logo-simplified-rgb.png" alt="">								
+												<img class="img-fluid" src="img/partner-4.png" alt="">								
 											</div>
 										</div>
 										
@@ -714,25 +692,7 @@
 			<script src="js/owl.carousel.min.js"></script>									
 			<script src="js/mail-script.js"></script>	
 			<script src="js/main.js"></script>	
-			<script>
-				
-				var slideIndex = 1;
-showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-					</script>
 		</body>
 	</html>
